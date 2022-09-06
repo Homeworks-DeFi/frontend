@@ -1,62 +1,71 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
-import './App.css';
-
 
 function App() {
+  const [haveMetamask, sethaveMetamask] = useState(true);
+  const [accountAddress, setAccountAddress] = useState('');
+  const [isConnected, setIsConnected] = useState(false);
 
-  const [currentAccount, setCurrentAccount] = useState(null);
-  const checkWalletIsConnected = () => { 
-    const { ethereum } = window;
-
-    if (ethereum) {
-      console.log("Make sure you have Metamask installed on your browser")
-      return;
-    } else {
-      console.log("Wallet is connected")
-    }
-
-    const accounts = ethereum.request({ method: "eth_accounts"});
-
-    if (accounts.length !== 0) {
-      const account = accounts[0];
-      console.log("Found an authorized account: ", account)
-      setCurrentAccount(account);
-    } else {
-      console.log("No authorized account found")
-    }
-
-  }
-
-  const connectWalletHandler = async () => {
-    const { ethereum } = window;
-
-    if (!ethereum) {
-      alert("Install Metamask")
-    }
-   }
-
-  const connectWalletButton = () => {
-    return (
-      <button onClick={connectWalletHandler} className='cta-button connect-wallet-button'>
-        Connect Wallet
-      </button>
-    )
-  }
-
+  const { ethereum } = window;
 
   useEffect(() => {
-    checkWalletIsConnected();
-  }, [])
+    const { ethereum } = window;
+    const checkMetamaskAvailability = async () => {
+      if (!ethereum) {
+        sethaveMetamask(false);
+      }
+      sethaveMetamask(true);
+    };
+    checkMetamaskAvailability();
+  }, []);
+
+  const connectWallet = async () => {
+    try {
+      if (!ethereum) {
+        sethaveMetamask(false);
+      }
+      const accounts = await ethereum.request({
+        method: 'eth_requestAccounts',
+      });
+      setAccountAddress(accounts[0]);
+      setIsConnected(true);
+    } catch (error) {
+      setIsConnected(false);
+    }
+  };
 
   return (
-    <div className='main-app'>
-      <h1>Home Works</h1>
-      <div>
-        {connectWalletButton()}
-      </div>
+    <div className="App">
+      <header className="App-header">
+        {haveMetamask ? (
+          <div className="App-header">
+            {isConnected ? (
+              <div className="card">
+                <div className="card-row">
+                  <h3>Wallet Address:</h3>
+                  <p>
+                    {accountAddress.slice(0, 4)}...
+                    {accountAddress.slice(38, 42)}
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <img src="" className="App-logo" alt="logo" />
+            )}
+            {isConnected ? (
+              <p className="info">🎉 Connected Successfully</p>
+            ) : (
+              <button className="btn" onClick={connectWallet}>
+                Connect
+              </button>
+            )}
+          </div>
+        ) : (
+          <p>Please Install MataMask</p>
+        )}
+      </header>
     </div>
-  )
+  );
 }
 
 export default App;
