@@ -3,7 +3,7 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
 
-function App() {
+function Home() {
   const [haveMetamask, sethaveMetamask] = useState(true);
   const [accountAddress, setAccountAddress] = useState("");
   const [isConnected, setIsConnected] = useState(false);
@@ -74,4 +74,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

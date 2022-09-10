@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./footer.css";
 
 function Footer() {
   return (
@@ -21,7 +21,7 @@ function Footer() {
           <td>Privacy Policy</td>
         </tr>
         <tr>
-          <td>POlygon</td>
+          <td>Polygon</td>
           <td>FAQs</td>
           <td>Web3</td>
         </tr>
@@ -31,7 +31,9 @@ function Footer() {
           <td>Contact</td>
         </tr>
       </table>
-    </footer>);
+      <button className="chatfooter-btn">Chat with us</button>
+    </footer>
+  );
 }
 
 export default Footer;
