@@ -1,6 +1,9 @@
 import React from 'react';
 import { Routes, Route} from "react-router-dom";
 import Home from './components/home/Home';
+import About from './components/about/About'
+import Marketplace from './components/marketplace/Marketplace';
+import Signup from './components/signup/Signup';
 
 function App() {
 
@@ -8,6 +11,10 @@ function App() {
     <div className='App'>
       <Routes>
         <Route path="/" element={ <Home/> } />
+        <Route path="/home" element={ <Home/> } />
+        <Route path="about" element={<About />} />
+        <Route path="marketplace" element={<Marketplace />} />
+        <Route path="signup" element={<Signup />} />
       </Routes>
     </div>
   );

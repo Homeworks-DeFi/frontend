@@ -1,9 +1,11 @@
-import { useState, useEffect } from 'react';
-import { ethers } from 'ethers';
+import { useState, useEffect } from "react";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
+
 
 function App() {
   const [haveMetamask, sethaveMetamask] = useState(true);
-  const [accountAddress, setAccountAddress] = useState('');
+  const [accountAddress, setAccountAddress] = useState("");
   const [isConnected, setIsConnected] = useState(false);
 
   const { ethereum } = window;
@@ -25,7 +27,7 @@ function App() {
         sethaveMetamask(false);
       }
       const accounts = await ethereum.request({
-        method: 'eth_requestAccounts',
+        method: "eth_requestAccounts",
       });
       setAccountAddress(accounts[0]);
       setIsConnected(true);
@@ -36,6 +38,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         {haveMetamask ? (
           <div className="App-header">
@@ -64,6 +67,9 @@ function App() {
           <p>Please Install MataMask</p>
         )}
       </header>
+      <footer>
+          <Footer />
+      </footer>
     </div>
   );
 }

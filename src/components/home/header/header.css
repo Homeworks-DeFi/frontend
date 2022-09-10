@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+.sitename{
+    display: flex;
+    position: absolute;
+    width: 139px;
+    height: 24px;
+    left: 70px;
+    top: 22px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DB15EC;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+.nav-items > li{
+    position: relative;
+    max-width: 230px;
+    height: 22px;
+    left: 650px;
+    top: 6px;
+    margin-left: 18px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.nav-items > li:hover{
+    color: #DB15EC;
+}
+
+.walletconnect-btn{
+    border: none;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #DB15EC;
+    color: white;
+}
+
+.walletconnect-btn:hover{
+    color: black;
+}
