@@ -7,6 +7,7 @@ import Signup from './components/signup/Signup';
 import Login from './components/login/Login'
 import InvestorPage from './components/investorPage/InvestorPage';
 import CollectionDetails from './components/collectionDetails/CollectionDetails';
+import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="signup" element={<Signup />} />
         <Route path="login" element={<Login />} />
         <Route path="investor" element={<InvestorPage />} />
+        <Route path="loan" element={<LoanSeekerForm />} />
         <Route path=":id" element={<CollectionDetails />} />
       </Routes>
     </div>
