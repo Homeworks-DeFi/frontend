@@ -5,6 +5,7 @@ footer{
     position: absolute;
     width: 100%;
     display: flex;
+    margin-top: 100%;
 }
 table{
     cursor: pointer;
