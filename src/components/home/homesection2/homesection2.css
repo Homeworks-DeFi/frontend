@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+.homesec2 {
+  display: flex;
+  width: 100%;
+  padding-top: 700px;
+  align-items: center;
+}
+.homesec2-flex1 {
+  padding-left: 70px;
+  max-width: 600px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+}
+.homesec2-flex2 {
+  cursor: pointer;
+  text-align: left;
+  margin: 0%;
+  max-width: 700px;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+.homesec2-flex2 > tr > th {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.homesec2-flex2 > tr > td {
+  line-height: 27px;
+  padding-top: 20px;
+}
+
+.explorehome-btn {
+  width: 196px;
+  height: 51px;
+  margin: 0px;
+  border: none;
+  padding-top: 0px;
+  background: #db15ec;
+  border-radius: 30px;
+}

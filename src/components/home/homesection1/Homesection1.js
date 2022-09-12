@@ -9,7 +9,7 @@ function Homesection1() {
           TWO INVESTMENTS, <br></br> ONE NFT.
         </div>
         <div className="homesec1text2">
-          Our Investments are innovative, imapctful, and high-<br></br>
+          Our Investments are innovative, impactful, and high-<br></br>
           yielding. Invest in a metaverse NFT collection today!
         </div>
         <div className="homesec1text3">

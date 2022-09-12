@@ -1,87 +1,86 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.homesec1{
-    display: flex;
+.homesec1 {
+  display: flex;
 }
-.rectangle1{
-    position: absolute;
-    width: 362px;
-    height: 387px;
-    left: 775px;
-    top: 144px;
-    z-index: 2;
-    background: #FAFAFA;
-    border-radius: 20px;
+.rectangle1 {
+  position: absolute;
+  width: 362px;
+  height: 387px;
+  left: 775px;
+  top: 144px;
+  z-index: 2;
+  background: #fafafa;
+  border-radius: 20px;
 }
-.rectangle2{
-    position: absolute;
-    width: 362px;
-    height: 347px;
-    left: 815px;
-    top: 160px;
-    z-index: 1;
-    background: #F5F5F5;
-    border-radius: 20px;
+.rectangle2 {
+  position: absolute;
+  width: 362px;
+  height: 347px;
+  left: 815px;
+  top: 160px;
+  z-index: 1;
+  background: #f5f5f5;
+  border-radius: 20px;
 }
-.rectangle3{
-    position: absolute;
-    width: 362px;
-    height: 305px;
-    left: 838px;
-    top: 190px;
-    background-color: #D9D9D9;
-    border-radius: 20px;
+.rectangle3 {
+  position: absolute;
+  width: 362px;
+  height: 305px;
+  left: 838px;
+  top: 190px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
 }
-.homesec1text1{
-    position: absolute;
-width: 539px;
-height: 137px;
-left: 70px;
-top: 160px;
+.homesec1text1 {
+  position: absolute;
+  width: 539px;
+  height: 137px;
+  left: 70px;
+  top: 160px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 65px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
 
-color: #000000;
+  color: #000000;
 }
-.homesec1text2{
-    position: absolute;
-width: 514px;
-height: 48px;
-left: 70px;
-top: 327px;
+.homesec1text2 {
+  position: absolute;
+  width: 514px;
+  height: 48px;
+  left: 70px;
+  top: 327px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #000000;
-
+  color: #000000;
 }
-.homesec1text3{
-    position: absolute;
-width: 350px;
-height: 84px;
-left: 70px;
-top: 405px;
-color: #000000;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 25px;
+.homesec1text3 {
+  position: absolute;
+  width: 350px;
+  height: 84px;
+  left: 70px;
+  top: 405px;
+  color: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
 }
-.homesec1text3 > span{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 65px;
+.homesec1text3 > span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
 }

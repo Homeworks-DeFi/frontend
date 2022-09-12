@@ -61,7 +61,7 @@ export default function Header() {
           <li>Metaverse NFT Collections</li>
           <li>Loan Seeker</li>
           <li>Investor</li>
-          <li>
+          <li >
           {isConnected ? (
             <p className="info">🎉 Connected Successfully</p>
           ) : (
