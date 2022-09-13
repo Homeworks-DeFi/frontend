@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 .homesec5 {
-  padding-top: 400px;
+    position: absolute;
+  padding-top: 200px;
   padding-left: 80px;
   display: float;
 }
@@ -19,56 +20,11 @@
   line-height: 40px;
   /* or 200% */
 }
-.homesteps {
-  float: right;
-  margin-top: 300px;
-}
-.step1 {
-  position: absolute;
-  width: 270px;
-  height: 259px;
-  left: 731px;
-  top: 2451px;
-  text-align: center;
-  background: #fafafa;
-  border-radius: 5px;
-}
-.step2 {
-  position: absolute;
-  width: 270px;
-  height: 259px;
-  left: 1016px;
-  top: 2498px;
-  text-align: center;
-  background: #fafafa;
-  border-radius: 5px;
-}
-.step3 {
-  position: absolute;
-  width: 270px;
-  height: 259px;
-  left: 1016px;
-  top: 2775px;
-  text-align: center;
-  background: #fafafa;
-  border-radius: 5px;
-}
-.step4 {
-  position: absolute;
-  width: 270px;
-  height: 259px;
-  left: 731px;
-  top: 2729px;
-  text-align: center;
-  background: #fafafa;
-  border-radius: 5px;
-}
+
 .signin-btn {
-  position: absolute;
+    margin-top: 100px ;
   width: 173px;
   height: 51px;
-  left: 731px;
-  top: 3053px;
   border: none;
   background: #db15ec;
   border-radius: 30px;
