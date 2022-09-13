@@ -71,7 +71,7 @@ export default function Header() {
           )}
           </li>
           <li>
-            <button className="header__searchIcon">search</button>
+            <button className="header__signinIcon">Sign In</button>
           </li>
         </ul>
       </nav>

@@ -8,7 +8,7 @@ import Login from './components/login/Login'
 import InvestorPage from './components/investorPage/InvestorPage';
 import CollectionDetails from './components/collectionDetails/CollectionDetails';
 import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
-
+import './App.css';
 function App() {
 
   return (

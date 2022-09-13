@@ -5,20 +5,17 @@
     display: none;
 }
 .nav{
+
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #D9D9D9;
-    padding: 0;
-    margin: 0;
-    height: 50px;
 }
 .sitename{
-    display: flex;
-    position: absolute;
+
     width: 139px;
     height: 24px;
-    left: 80px;
-    top: 20px;
+    margin-top: 50px;
+    margin-left: 60px;
     cursor: pointer;
 
     font-family: 'Lato';
@@ -32,15 +29,11 @@
     list-style: none;
     display: flex;
     cursor: pointer;
+    margin-left: 25rem;
 }
 
 .nav-items > li{
-    position: relative;
-    max-width: 230px;
-    height: 0px;
-    left: 650px;
-    top: 10px;
-    margin-left: 18px;
+    margin-left: 35px;
     font-family: 'Open Sans';
     font-style: normal;
 font-weight: 600;
@@ -51,24 +44,21 @@ font-size: 16px;
     color: #DB15EC;
 }
 
-.walletconnect-btn{
+.walletconnect-btn,.header__signinIcon{
     width: 100px;
-    height: 22px;
-    left: 1126px;
+    height: 25px;
     border: none;
     font-family: 'Open Sans';
     font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 20px;
+
+color: white;
     background: #DB15EC;
     border-radius: 30px;
+    margin-bottom: 0px;
 }
 
 .walletconnect-btn:hover{
     color: black;
-}
-
-.header__searchIcon{
-    cursor: pointer;
 }
