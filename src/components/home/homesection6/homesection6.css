@@ -3,11 +3,8 @@
 }
 .homesec6{
     display: flex;
-    position: absolute;
-    padding-top: 700px;
-}
-.fortgreen{
-    
+    position: relative;
+    padding-top: 100px;
 }
 .fortgreen--square{
     position: absolute;

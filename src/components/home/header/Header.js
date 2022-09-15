@@ -60,7 +60,8 @@ export default function Header() {
         <ul className="nav-items">
           <li>Metaverse NFT Collections</li>
           <li>Loan Seeker</li>
-          <li>Investor</li>
+          <li>Investor</li></ul>
+          <ul className='nav-btns'>
           <li >
           {isConnected ? (
             <p className="info">🎉 Connected Successfully</p>
@@ -73,7 +74,7 @@ export default function Header() {
           <li>
             <button className="header__signinIcon">Sign In</button>
           </li>
-        </ul>
+          </ul>
       </nav>
     </header>
   );

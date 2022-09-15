@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .homesec5 {
-    position: absolute;
+    position: relative;
   padding-top: 200px;
   padding-left: 80px;
   display: float;
