@@ -37,9 +37,16 @@
 .logo__img{
     height: 4rem;
 }        
-#img__id{
+.logo__app{
     height: 100%;
     object-fit: cover;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DB15EC;
+    cursor: pointer;
 }
 input{
     display: block;

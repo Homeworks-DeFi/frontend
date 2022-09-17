@@ -1,76 +1,69 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.App-logo{
-    display: none;
+.App-logo {
+  display: none;
 }
-.nav{
+.nav {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+}
+.sitename {
+  width: 139px;
+  height: 24px;
+  margin-top: 20px;
+  margin-left: 60px;
+  cursor: pointer;
 
-    display: flex;
-    border-bottom: 1px solid #D9D9D9;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #db15ec;
 }
-.sitename{
-
-    width: 139px;
-    height: 24px;
-    margin-top: 50px;
-    margin-left: 60px;
-    cursor: pointer;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
-    color: #DB15EC;
-}
-.nav-items{
-    list-style: none;
-    display: flex;
-    cursor: pointer;
-    margin-left: 400px;
+.nav-items {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  margin-left: 400px;
 }
 
-.nav-items > li{
-        position: relative;
-        top: 10px;
-    margin-left: 20px;
-    font-family: 'Open Sans';
-    font-style: normal;
-font-weight: 600;
-font-size: 16px;
+.nav-items > li {
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.metaverse {
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.nav-items > li:hover{
-    color: #DB15EC;
-}
-.nav-btns{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    
-color: white;
-background: #DB15EC;
-border-radius: 30px;
-}
-.nav-btns >li{
-    top: 20px;
-    margin-left: 20px;
-    position: relative;
-    width: 100px;
-    height: 25px;
-    border: none;
-    font-family: 'Open Sans';
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-
-color: white;
-    background: #DB15EC;
-    border-radius: 30px;
-
+.nav-items > li:hover {
+  color: #db15ec;
 }
 
-.walletconnect-btn:hover{
-    color: black;
+.walletconnect-btn:hover,
+.header__signinIcon:hover {
+  color: black;
+}
+.walletconnect-btn,
+.header__signinIcon {
+  width: 110px;
+  height: 25px;
+  border: none;
+  font-size: small;
+  color: white;
+  background: #c115ec;
+  border-radius: 30px;
 }

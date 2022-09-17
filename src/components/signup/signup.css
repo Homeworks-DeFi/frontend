@@ -43,12 +43,15 @@ p{
     width: 60%;
     background: purple;
     cursor: pointer;
-    color: white;
     border: none;
     padding: 1rem 2rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
     transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+.link__home{
+    color: white;
 }
             
 .h1{

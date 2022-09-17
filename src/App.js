@@ -8,7 +8,9 @@ import Login from './components/login/Login'
 import InvestorPage from './components/investorPage/InvestorPage';
 import CollectionDetails from './components/collectionDetails/CollectionDetails';
 import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
+import Loanseekerhome from './components/loanseekerhome/LandingPage';
 import './App.css';
+
 function App() {
 
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path="investor" element={<InvestorPage />} />
         <Route path="loan" element={<LoanSeekerForm />} />
         <Route path=":id" element={<CollectionDetails />} />
+        <Route path="/loanseekerhome" element={<Loanseekerhome />} />
       </Routes>
     </div>
   );

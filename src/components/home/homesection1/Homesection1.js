@@ -1,6 +1,8 @@
 import React from "react";
 import "./homesection1.css";
-
+import rect1 from "../../../assets/rect1.png"
+import rect2 from "../../../assets/rect2.png"
+import rect3 from "../../../assets/rect3.png"
 function Homesection1() {
   return (
     <div className="homesec1">
@@ -16,9 +18,9 @@ function Homesection1() {
           <span>10k+ </span> Metaverse Collections (and more to come)
         </div>
       </container>
-      <div className="rectangle1"></div>
-      <div className="rectangle2"></div>
-      <div className="rectangle3"></div>
+      <img src={rect1} className="rectangle1" />
+      <img src={rect2} className="rectangle2" />
+      <img src={rect3} className="rectangle3" />
     </div>
   );
 }

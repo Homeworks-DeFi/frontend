@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {Link} from 'react-router-dom'
 import "./header.css";
 //import SearchIcon from '@mui/icons-material/Search';
 
@@ -48,7 +49,7 @@ export default function Header() {
                 </p>
               </div>
             </div>
-          ): (
+          ) : (
             <img src="" className="App-logo" alt="logo" />
           )}
         </div>
@@ -58,23 +59,25 @@ export default function Header() {
       <nav className="nav">
         <span className="sitename">HOMEWORKS</span>
         <ul className="nav-items">
-          <li>Metaverse NFT Collections</li>
+        <Link to='/marketplace'>
+        <li className="metaverse">Metaverse NFT Collections</li></Link>
           <li>Loan Seeker</li>
-          <li>Investor</li></ul>
-          <ul className='nav-btns'>
-          <li >
-          {isConnected ? (
-            <p className="info">🎉 Connected Successfully</p>
-          ) : (
-            <button className="walletconnect-btn" onClick={connectWallet}>
-              Connect
-            </button>
-          )}
+          <li>Investor</li>
+          <li>
+            {isConnected ? (
+              <p className="info">🎉 Connected Successfully</p>
+            ) : (
+              <button className="walletconnect-btn" onClick={connectWallet}>
+                Connect
+              </button>
+            )}
           </li>
           <li>
-            <button className="header__signinIcon">Sign In</button>
+            <Link to='/login'>
+              <button className="header__signinIcon">Sign In</button>
+            </Link>
           </li>
-          </ul>
+        </ul>
       </nav>
     </header>
   );

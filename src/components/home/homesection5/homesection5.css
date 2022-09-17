@@ -3,15 +3,12 @@
 }
 .homesec5 {
     position: relative;
-  padding-top: 200px;
-  padding-left: 80px;
-  display: float;
+    margin-left: 180px;
 }
 .howitworks {
-  max-width: 350px;
+  margin-top: 5rem;
+  margin-left: 25rem;
   height: 149px;
-  left: 151px;
-  top: 2426px;
 
   font-family: "Inter";
   font-style: normal;
@@ -22,10 +19,57 @@
 }
 
 .signin-btn {
-    margin-top: 100px ;
+    margin-top: 50px ;
   width: 173px;
   height: 51px;
   border: none;
+  background: #db15ec;
+  border-radius: 30px;
+  color: white;
+  margin-left: 25rem;
+}
+
+.homesec2 {
+  width: 100%;
+  align-items: center;
+}
+.homesec2-flex1 {
+  padding-left: 250px;
+  max-width: 700px;
+  padding-top: 100px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+}
+.homesec2-flex2 {
+  cursor: pointer;
+  text-align: left;
+  margin: 0%;
+  max-width: 1200px;
+  padding-left: 250px;
+  padding-top: 50px;
+}
+.homesec2-flex2 > tr > th {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.homesec2-flex2 > tr > td {
+  line-height: 27px;
+  padding-top: 20px;
+}
+
+.explorehome-btn {
+  cursor: pointer;
+  width: 196px;
+  height: 51px;
+  border: none;
+  margin-top: 40px;
   background: #db15ec;
   border-radius: 30px;
   color: white;
