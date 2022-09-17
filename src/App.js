@@ -18,12 +18,12 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="/home" element={ <Home/> } />
-        <Route path="about" element={<About />} />
-        <Route path="marketplace" element={<Marketplace />} />
-        <Route path="signup" element={<Signup />} />
-        <Route path="login" element={<Login />} />
-        <Route path="investor" element={<InvestorPage />} />
-        <Route path="loan" element={<LoanSeekerForm />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/investor" element={<InvestorPage />} />
+        <Route path="/loan" element={<LoanSeekerForm />} />
         <Route path=":id" element={<CollectionDetails />} />
         <Route path="/loanseekerhome" element={<Loanseekerhome />} />
       </Routes>
