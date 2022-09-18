@@ -3,18 +3,18 @@
 }
 .homesec3 {
   display: float;
-  padding-top: 200px;
+
 }
 .homegrid {
   float: left;
-  margin-top: 200px;
+  position: relative;
 }
 .square1 {
   position: absolute;
   width: 100px;
   height: 90px;
   left: 226px;
-  top: 1406px;
+  top: 106px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -23,7 +23,7 @@
   width: 100px;
   height: 90px;
   left: 330px;
-  top: 1406px;
+  top: 106px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -32,7 +32,7 @@
   width: 100px;
   height: 90px;
   left: 330px;
-  top: 1500px;
+  top: 200px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -41,7 +41,7 @@
   width: 100px;
   height: 90px;
   left: 226px;
-  top: 1500px;
+  top: 200px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -50,7 +50,7 @@
   width: 100px;
   height: 90px;
   left: 226px;
-  top: 1594px;
+  top: 294px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -59,7 +59,7 @@
   width: 100px;
   height: 90px;
   left: 330px;
-  top: 1594px;
+  top: 294px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -68,7 +68,7 @@
   width: 100px;
   height: 90px;
   left: 122px;
-  top: 1406px;
+  top: 106px;
   background: rgba(219, 21, 236, 0.3);
 }
 
@@ -77,7 +77,7 @@
   width: 50px;
   height: 50px;
   left: 156px;
-  top: 1521px;
+  top: 221px;
   background: #db15ec;
 }
 .square9 {
@@ -85,7 +85,7 @@
   width: 110px;
   height: 91px;
   left: 122px;
-  top: 1596px;
+  top: 296px;
 
   background: #db15ec;
 }
@@ -94,7 +94,7 @@
   width: 34px;
   height: 91px;
   left: 122px;
-  top: 1691px;
+  top: 391px;
 
   background: #99f5fb;
 }
@@ -103,7 +103,7 @@
   width: 110px;
   height: 91px;
   left: 122px;
-  top: 1691px;
+  top: 391px;
 
   background: rgba(219, 21, 236, 0.3);
 }
@@ -112,7 +112,7 @@
   width: 110px;
   height: 91px;
   left: 236px;
-  top: 1691px;
+  top: 391px;
 
   background: rgba(219, 21, 236, 0.3);
 }
@@ -121,7 +121,7 @@
   width: 110px;
   height: 91px;
   left: 350px;
-  top: 1691px;
+  top: 391px;
 
   background: rgba(219, 21, 236, 0.3);
 }
@@ -130,7 +130,7 @@
   width: 110px;
   height: 91px;
   left: 435px;
-  top: 1596px;
+  top: 296px;
 
   background: rgba(219, 21, 236, 0.3);
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -140,7 +140,7 @@
   width: 110px;
   height: 91px;
   left: 435px;
-  top: 1501px;
+  top: 201px;
 
   background: rgba(219, 21, 236, 0.3);
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -150,7 +150,7 @@
   width: 50px;
   height: 50px;
   left: 510px;
-  top: 1732px;
+  top: 432px;
 
   background: #db15ec;
 }
@@ -159,7 +159,7 @@
   width: 34px;
   height: 91px;
   left: 525px;
-  top: 1501px;
+  top: 201px;
 
   background: #99f5fb;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -169,7 +169,7 @@
   width: 34px;
   height: 91px;
   left: 525px;
-  top: 1596px;
+  top: 296px;
 
   background: #99f5fb;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -177,7 +177,7 @@
 .homesec3-text {
   max-width: 600px;
   float: right;
-  padding-top: 70px;
+  padding-top: 100px;
   padding-right: 100px;
   font-family: "Inter";
   font-style: normal;
@@ -185,10 +185,34 @@
   font-size: 20px;
   line-height: 40px;
 }
+.homesec3-text> button{
+  width: 142px;
+height: 51px;
+border: none;
+
+background: #C115EC;
+color: white;
+border-radius: 30px;
+cursor: pointer;
+}
+.homesec3-text> button:hover{
+  color: black;
+}
 .homesec3-text > h1 {
+  max-width: 400px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 40px;
+}
+.homesec4-list > li {
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.homesec4-list > li::marker {
+  color: #db15ec;
+  font-size: 30px;
 }

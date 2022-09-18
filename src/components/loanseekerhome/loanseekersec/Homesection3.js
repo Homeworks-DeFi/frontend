@@ -24,14 +24,17 @@ function Homesection3() {
         <div className="square17"></div>
         <div className="square18"></div>
       </div>
-      <div className="homesec3-text"><h1>Why Choose Us</h1>
-        We make investing simple and easy. Our Metaverse NFT Collections have a
-        low cost of entry and a high return on value. By purchasing one of our
-        NFs, you provide capital for our loan programs. In return, you receive
-        fractional shares of high value, exclusive properties from our Metaverse
-        Collections. Owning an NFT from one of our Metaverse Collections gives
-        you rights to an appreciating assets as well as monthly income
+      <div className="homesec3-text"><h1>BUILDING OUR COMMUNITY STRONGER, ONE LOAN AT A TIME!</h1>
+      <ul className="homesec4-list">
+      <li>Convenient online personal loan application</li>
+      <li>Affordable monthly payments</li>
+      <li>Low fixed rates</li>
+      <li>No repayment fees</li>
+    </ul>
+        
+        <button>Apply Now</button>
       </div>
+      
     </div>
   );
 }

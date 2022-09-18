@@ -8,7 +8,7 @@ import Login from './components/login/Login'
 import InvestorPage from './components/investorPage/InvestorPage';
 import CollectionDetails from './components/collectionDetails/CollectionDetails';
 import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
-import Loanseekerhome from './components/loanseekerhome/LandingPage';
+import LoanSeeker from './components/loanseekerhome/LoanSeeker';
 import './App.css';
 
 function App() {
@@ -17,15 +17,15 @@ function App() {
     <div className='App'>
       <Routes>
         <Route path="/" element={ <Home/> } />
-        <Route path="/home" element={ <Home/> } />
-        <Route path="/about" element={<About />} />
-        <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/investor" element={<InvestorPage />} />
-        <Route path="/loan" element={<LoanSeekerForm />} />
+        <Route path="home" element={ <Home/> } />
+        <Route path="about" element={<About />} />
+        <Route path="marketplace" element={<Marketplace />} />
+        <Route path="signup" element={<Signup />} />
+        <Route path="login" element={<Login />} />
+        <Route path="investor" element={<InvestorPage />} />
+        <Route path="loan" element={<LoanSeekerForm />} />
         <Route path=":id" element={<CollectionDetails />} />
-        <Route path="/loanseekerhome" element={<Loanseekerhome />} />
+        <Route path="loanseeker" element={<LoanSeeker />} />
       </Routes>
     </div>
   );
