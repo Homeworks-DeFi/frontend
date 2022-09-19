@@ -1,11 +1,9 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-
-import Header from "../../components/header";
-import Footer from "../../components/footer";
-import MintNFT from "../../components/mint";
-import Banner from "../../components/banner";
+import Header from "../home/header/Header";
+import Footer from "../home/footer/Footer";
+import MintNFT from "../../components/collectionDetails/CollectionDetails";
 
 function Mint() {
   useEffect(() => {
@@ -18,9 +16,8 @@ function Mint() {
       <header className="page-header">
         <Header />
       </header>
-      <Banner />
       <section className="mint">
-        <MintNFT />
+        <details />
       </section>
       <div className="section-seperater right"></div>
       <footer className="page-footer">

@@ -11,6 +11,7 @@ import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
 import LoanSeeker from './components/loanseekerhome/LoanSeeker';
 import './App.css';
 import Dashboard from './components/dashboard/Dashboard';
+import Mint from './components/collectionDetails/mintPage';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="investor" element={<InvestorPage />} />
         <Route path="loan" element={<LoanSeekerForm />} />
-        <Route path="details" element={<CollectionDetails />} />
+        <Route path="details" element={<Mint />} />
         <Route path="loanseeker" element={<LoanSeeker />} />
         <Route path="dashboard" element={<Dashboard />} />
       </Routes>
