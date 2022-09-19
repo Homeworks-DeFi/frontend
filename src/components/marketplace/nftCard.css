@@ -1,0 +1,18 @@
+.nft-name {
+  font-size: 16px;
+  font-weight: bolder !important;
+}
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.buy-button {
+  background-color: "#C115EC";
+  border-radius: "20px";
+  font-size: "12px";
+  font-weight: "bold";
+}
+.nft-card-body {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}

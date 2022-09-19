@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import "./header.css";
 //import SearchIcon from '@mui/icons-material/Search';
 
@@ -37,30 +37,12 @@ export default function Header() {
   };
   return (
     <header className="App-header">
-      {haveMetamask ? (
-        <div className="App-header">
-          {isConnected ? (
-            <div className="card">
-              <div className="card-row">
-                <h3>Wallet Address:</h3>
-                <p>
-                  {accountAddress.slice(0, 4)}...
-                  {accountAddress.slice(38, 42)}
-                </p>
-              </div>
-            </div>
-          ) : (
-            <img src="" className="App-logo" alt="logo" />
-          )}
-        </div>
-      ) : (
-        <p>Please Install MataMask</p>
-      )}
       <nav className="nav">
         <span className="sitename">HOMEWORKS</span>
         <ul className="nav-items">
-        <Link to='/marketplace'>
-        <li className="metaverse">Metaverse NFT Collections</li></Link>
+          <Link to="/marketplace">
+            <li className="metaverse">Metaverse NFT Collections</li>
+          </Link>
           <li>Loan Seeker</li>
           <li>Investor</li>
           <li>
@@ -73,12 +55,37 @@ export default function Header() {
             )}
           </li>
           <li>
-            <Link to='/login'>
+            <Link to="/login">
               <button className="header__signinIcon">Sign In</button>
             </Link>
           </li>
         </ul>
       </nav>
+      {haveMetamask ? (
+        <div className="App-header">
+          {isConnected ? (
+            <div className="">
+              <div
+                className="float-right text-success mx-5"
+                style={{ fontSize: "13px", float: "right" }}
+              >
+                <p>
+                  Wallet Address: {accountAddress.slice(0, 4)}...
+                  {accountAddress.slice(38, 42)}
+                </p>
+              </div>
+            </div>
+          ) : (
+            <img src="" className="App-logo" alt="logo" />
+          )}
+        </div>
+      ) : (
+        <div className="text-warning mx-5">
+          <p className="" style={{ fontSize: "13px", float: "right" }}>
+            Please Install MataMask
+          </p>
+        </div>
+      )}
     </header>
   );
 }
