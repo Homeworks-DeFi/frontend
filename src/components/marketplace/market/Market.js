@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./market.css";
 
 export default function Market(props) {
@@ -10,7 +11,9 @@ export default function Market(props) {
         <div className="nft-amt">{props.number}</div>
         <div>
           <span className="nft-avail">{props.available}</span>
-          <button className="viewdetails">View details</button>
+          <Link to="/details">
+            <button className="viewdetails">View details</button>
+          </Link>
         </div>
       </div>
     </div>
