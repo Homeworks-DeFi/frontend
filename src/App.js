@@ -1,16 +1,16 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-// import Marketplace from './components/marketplace/Marketplace';
-import Signup from "./components/signup/Signup";
-import Login from "./components/login/Login";
-import InvestorPage from "./components/investorPage/InvestorPage";
-import CollectionDetails from "./components/collectionDetails/CollectionDetails";
-import LoanSeekerForm from "./components/loanSeekerFoam/LoanSeekerForm";
-import LoanSeeker from "./components/loanseekerhome/LoanSeeker";
-import MarketPlace from "./components/marketplace";
-import "./App.css";
+import React from 'react';
+import { Routes, Route} from "react-router-dom";
+import Home from './components/home/Home';
+import About from './components/about/About'
+import Marketplace from './components/marketplace/Marketplace';
+import Signup from './components/signup/Signup';
+import Login from './components/login/Login'
+import InvestorPage from './components/investorPage/InvestorPage';
+import CollectionDetails from './components/collectionDetails/CollectionDetails';
+import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
+import LoanSeeker from './components/loanseekerhome/LoanSeeker';
+import './App.css';
+import Dashboard from './components/dashboard/Dashboard';
 
 function App() {
   return (
@@ -24,8 +24,9 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="investor" element={<InvestorPage />} />
         <Route path="loan" element={<LoanSeekerForm />} />
-        <Route path=":id" element={<CollectionDetails />} />
+        <Route path="details" element={<CollectionDetails />} />
         <Route path="loanseeker" element={<LoanSeeker />} />
+        <Route path="dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );
