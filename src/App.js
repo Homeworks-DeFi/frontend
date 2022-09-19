@@ -10,8 +10,6 @@ import CollectionDetails from './components/collectionDetails/CollectionDetails'
 import LoanSeekerForm from './components/loanSeekerFoam/LoanSeekerForm';
 import LoanSeeker from './components/loanseekerhome/LoanSeeker';
 import './App.css';
-import Dashboard from './components/dashboard/Dashboard';
-import Mint from './components/collectionDetails/mintPage';
 
 function App() {
   return (
