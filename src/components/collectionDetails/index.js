@@ -8,7 +8,7 @@ import WalletLink from "walletlink";
 import DiversifyNFT from "../../contracts/DiversifyNFT.json";
 import DiversifyNFTSales from "../../contracts/DiversifyNFTSales.json";
 
-const NftImage = "/images/PicsArt_01-20-04.44.33.png";
+const NftImage = "/src/assets/collection 1.jpg";
 
 const NFTAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
 const NFTSaleAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
