@@ -3,15 +3,13 @@ import { Link } from "react-router-dom";
 import "./collectionDetails.css";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
-import WalletConnectProvider from "@walletconnect/web3-provider";
 import WalletLink from "walletlink";
 
-import DiversifyNFT from "../../contracts/DiversifyNFT.json";
-import DiversifyNFTSales from "../../contracts/DiversifyNFTSales.json";
+import Collection1 from "../../collection1.json";
 import nft1 from "../../assets/624c8c6d91d58f79a0e4d49b.jpg";
 
-const NFTAddress = "0xCc48a3ECB6c671eb4eEBBeBE000802D4C15796f6";
-const NFTSaleAddress = "0xB48bceaAF3bF8aB9C5517518aF0dCc21F81790cE";
+const NFTAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
+const NFTSaleAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
 
 class details extends React.Component {
     constructor(props) {
@@ -81,12 +79,12 @@ class details extends React.Component {
           const signer = provider.getSigner();
           const DiversifyNFTContract = new ethers.Contract(
             NFTAddress,
-            DiversifyNFT.abi,
+            Collection1.abi,
             signer
           );
           const DiversifyNFTSalesContract = new ethers.Contract(
             NFTSaleAddress,
-            DiversifyNFTSales.abi,
+            Collection1.abi,
             signer
           );
   

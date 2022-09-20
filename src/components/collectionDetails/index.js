@@ -5,8 +5,7 @@ import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import WalletLink from "walletlink";
 
-import DiversifyNFT from "../../contracts/DiversifyNFT.json";
-import DiversifyNFTSales from "../../contracts/DiversifyNFTSales.json";
+import Collection1 from "../../collection1.json";
 
 const NftImage = "/src/assets/collection 1.jpg";
 
@@ -81,12 +80,12 @@ class MintNFT extends React.Component {
         const signer = provider.getSigner();
         const DiversifyNFTContract = new ethers.Contract(
           NFTAddress,
-          DiversifyNFT.abi,
+          Collection1.abi,
           signer
         );
         const DiversifyNFTSalesContract = new ethers.Contract(
           NFTSaleAddress,
-          DiversifyNFTSales.abi,
+          Collection1.abi,
           signer
         );
 
