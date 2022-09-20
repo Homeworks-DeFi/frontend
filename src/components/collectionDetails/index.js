@@ -10,8 +10,8 @@ import DiversifyNFTSales from "../../contracts/DiversifyNFTSales.json";
 
 const NftImage = "/images/PicsArt_01-20-04.44.33.png";
 
-const NFTAddress = "0xCc48a3ECB6c671eb4eEBBeBE000802D4C15796f6";
-const NFTSaleAddress = "0xB48bceaAF3bF8aB9C5517518aF0dCc21F81790cE";
+const NFTAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
+const NFTSaleAddress = "0x7773ce12a9561162a6d19aba28d1708bb180c21c";
 
 class MintNFT extends React.Component {
   constructor(props) {
@@ -27,8 +27,8 @@ class MintNFT extends React.Component {
 
   addMintNumber(e) {
     let mintNum = this.state.value + 1;
-    if (mintNum > 5) {
-      mintNum = 5;
+    if (mintNum > 50) {
+      mintNum = 50;
     }
     this.setState({ value: mintNum });
   }
@@ -51,16 +51,16 @@ class MintNFT extends React.Component {
         walletconnect: {
           package: WalletConnectProvider,
           options: {
-            infuraId: "0bbb45846bdf44d1bcbe6275327619ad",
+            infuraId: "2F220Wofbtcac07qIG9wXbc7qWE",
           },
         },
         walletlink: {
           package: WalletLink,
           options: {
-            appName: "Hip Ass Ape Minter",
-            infuraId: "0bbb45846bdf44d1bcbe6275327619ad",
+            appName: "Homeworks",
+            infuraId: "2F220Wofbtcac07qIG9wXbc7qWE",
             rpc: "",
-            chainId: 4,
+            chainId: 80001,
             appLogoUrl: null,
             darkMode: true,
           },
@@ -72,7 +72,7 @@ class MintNFT extends React.Component {
       if (accounts.length > 0) {
         // var account = accounts[0];
         const { chainId } = await provider.getNetwork();
-        if (chainId !== 0x4) {
+        if (chainId !== 0x13881) {
           // alert("Please change the network to rinkby");
           return;
         }
