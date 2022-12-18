@@ -135,7 +135,7 @@ class details extends React.Component {
                 onClick={this.mintNFT}
                 disabled={!this.state.mintState}
               >
-                MInt
+                Mint
               </button>
             </Link>
           </div>

@@ -1,17 +1,16 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.loandetailshead-text1{
-    width: 225px;
-height: 55px;
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 55px;
-/* identical to box height */
+.loandetailshead-text1 {
+  width: 225px;
+  height: 55px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  /* identical to box height */
 
-
-color: #C115EC;
+  color: #c115ec;
 }

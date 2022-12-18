@@ -1,53 +1,53 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-footer{
-    position: relative;
-    width: 100%;
-    display: flex;
-    bottom: 0%;
-    padding-bottom: 200px;
-    margin: auto;
-    padding: auto;
+footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  bottom: 0%;
+  padding-bottom: 200px;
+  margin: auto;
+  padding: auto;
 }
-table{
-    cursor: pointer;
-    text-align: left;
-    margin-top: 80px;
-    margin-left: 280px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 16px;
-    
+table {
+  cursor: pointer;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 280px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
 }
-table > tr > th{
-    padding-right: 145px;
-    font-weight: 800;
-    line-height: 40px;
+table > tr > th {
+  padding-right: 145px;
+  font-weight: 800;
+  line-height: 40px;
 }
-table > tr > th:hover, table > tr > td:hover{
-    color: #DB15EC;
+table > tr > th:hover,
+table > tr > td:hover {
+  color: #db15ec;
 }
-table > tr > td{
-    padding-top: 7px;
-    font-family: "Nunito";
-    font-weight: 400;
-    line-height: 22px;
+table > tr > td {
+  padding-top: 7px;
+  font-family: "Nunito";
+  font-weight: 400;
+  line-height: 22px;
 }
-.chatfooter-btn{
-    margin-top: 200px;
-    margin-left: 60px;
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
-    border: none;
-    background: #DB15EC;
-    border-radius: 30px;
-    color: white;
+.chatfooter-btn {
+  margin-top: 200px;
+  margin-left: 60px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: #db15ec;
+  border-radius: 30px;
+  color: white;
 }
-.chatfooter-btn:hover{
-    color: black;
+.chatfooter-btn:hover {
+  color: black;
 }
-.copyright{
-    padding-left: 20px;
+.copyright {
+  padding-left: 20px;
 }

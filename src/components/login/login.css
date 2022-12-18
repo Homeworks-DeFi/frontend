@@ -1,117 +1,112 @@
-.main_login{
-    min-height: 100vh;
-    min-width: 100vw;
-    overflow-x: hidden;
-    background: rgb(223, 223, 223);
-
+.main_login {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background: rgb(223, 223, 223);
 }
-.login_container{
-    height: 100vh;
-    width: 80%;
-    border-radius: 1rem;
-    margin: 2rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.login_container {
+  height: 100vh;
+  width: 80%;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.link{
-    text-decoration: none;
-    color: purple;
+.link {
+  text-decoration: none;
+  color: purple;
 }
 
 .container {
-    margin: 2rem 2rem;
-    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58,57,57);
-    height: 100%;
+  margin: 2rem 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.form {
+  margin-top: 2rem;
+}
+.logo__img {
+  height: 4rem;
+}
+.logo__app {
+  height: 100%;
+  object-fit: cover;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #db15ec;
+  cursor: pointer;
+}
+input {
+  display: block;
+  outline: none;
+  border: none;
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  transition: all 0.3 ease;
+}
+label {
+  display: block;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  float: left;
+  margin-left: 2px;
+  width: 70%;
+  border: small;
+  color: black;
+}
+.login__button {
+  width: 50%;
+  height: 3rem;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.3 ease;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  input {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
     width: 100%;
-}
-.container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-.form{
-    margin-top: 2rem;
-    }
-.logo__img{
-    height: 4rem;
-}        
-.logo__app{
-    height: 100%;
-    object-fit: cover;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
-    color: #DB15EC;
-    cursor: pointer;
-}
-input{
-    display: block;
-    outline: none;
-    border: none;
-    height: 3rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    transition: all 0.3 ease;
-}
-label{
-    display: block;
-    margin: auto;
-    text-align: left;
-    margin-bottom: 0.5rem;
-    float: left;
-    margin-left: 2px;
+  }
+  input {
     width: 70%;
-    border: small;
-    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  label {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .login__button {
+    margin-left: 20%;
+  }
+  .footer {
+    display: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+  }
 }
-.login__button{
-    width: 50%;
-    height: 3rem;
-    background: purple;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    font-weight: 500;
-    transition: all 0.3 ease;
-    margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 1024px){
-    input{
-        grid-template-columns: 1fr;
-    }
-}
-
-
-@media screen and (max-width: 600px){
-        .container{
-            width: 100%;
-        }
-            input{
-                width: 70%;
-                margin-left: 10%;
-                margin-right: 10%;                
-            }
-            label{
-                width: 70%;
-                margin-left: 10%;
-            
-            }
-            .login__button{
-                margin-left: 20%;
-            }
-            .footer{
-                display: column;
-                align-items: center;
-                justify-content: center;
-                margin-left: 10%;
-                
-            }
-        }
-    

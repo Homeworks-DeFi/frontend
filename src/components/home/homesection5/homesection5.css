@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 .homesec5 {
-    position: relative;
-    margin-left: 180px;
-    margin-top: 400px;
+  position: relative;
+  margin-left: 180px;
+  margin-top: 400px;
 }
 .howitworks {
   margin-top: 5rem;
@@ -20,7 +20,7 @@
 }
 
 .signin-btn {
-    margin-top: 50px ;
+  margin-top: 50px;
   width: 173px;
   height: 51px;
   border: none;
@@ -35,17 +35,15 @@
   align-items: center;
 }
 .homesec2-flex1 {
-
-height: 166px;
+  height: 166px;
   padding-left: 200px;
   max-width: 900px;
   padding-top: 100px;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 55px;
-
 }
 .homesec2-flex2 {
   cursor: pointer;

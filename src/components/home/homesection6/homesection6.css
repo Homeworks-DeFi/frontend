@@ -1,232 +1,225 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.homesec6{
-    display: flex;
-    position: relative;
-    padding-top: 100px;
+.homesec6 {
+  display: flex;
+  position: relative;
+  padding-top: 100px;
 }
-.fortgreen--square{
-    position: absolute;
-width: 465px;
-height: 462px;
-left: 10px;
-background: #D9D9D9;
-border-radius: 20px;
+.fortgreen--square {
+  position: absolute;
+  width: 465px;
+  height: 462px;
+  left: 10px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
-.fortgreen-text{
-    position: relative;
-width: 245px;
-height: 27px;
-left: 29px;
-top: 500px;
+.fortgreen-text {
+  position: relative;
+  width: 245px;
+  height: 27px;
+  left: 29px;
+  top: 500px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 27px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+}
+.fortgreen-stock {
+  position: relative;
+  width: 73px;
+  height: 22px;
+  left: 29px;
+  top: 503px;
 
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
-.fortgreen-stock{
-    position: relative;
-width: 73px;
-height: 22px;
-left: 29px;
-top: 503px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+.fortgreen-btn {
+  position: relative;
+  width: 140px;
+  height: 45px;
+  left: 325px;
+  top: 453px;
+  border: none;
+  color: white;
+  background: #c115ec;
+  border-radius: 30px;
 }
-.fortgreen-btn{
-    position: relative;
-width: 140px;
-height: 45px;
-left: 325px;
-top: 453px;
-    border: none;
-    color: white;
-background: #C115EC;
-border-radius: 30px;
-}
-.fortgreen-btn:hover{
-    color: white;
+.fortgreen-btn:hover {
+  color: white;
 }
 
-.greenpoint{
-    position: relative;
-    padding-left: 250px;
-    display: flex;
+.greenpoint {
+  position: relative;
+  padding-left: 250px;
+  display: flex;
 }
-.greenpoint-square{
-width: 186px;
-height: 169px;
+.greenpoint-square {
+  width: 186px;
+  height: 169px;
 
-background: #D9D9D9;
-border-radius: 20px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
-.greenpoint-text{
-    padding-top: 40px;
-    padding-left: 20px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+.greenpoint-text {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
-.greenpoint-stock{
-
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+.greenpoint-stock {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
-.greenpoint-btn{
-    margin-top: 20px;
-    width: 140px;
-height: 45px;
-background: #C115EC;
-border-radius: 30px;
-color: white;
-border: none;
+.greenpoint-btn {
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  background: #c115ec;
+  border-radius: 30px;
+  color: white;
+  border: none;
 }
-.williamsburg{
-    position: relative;
-    padding-left: 250px;
-    display: flex;
-    padding-top: 20px;
+.williamsburg {
+  position: relative;
+  padding-left: 250px;
+  display: flex;
+  padding-top: 20px;
 }
-.williamsburg-square{
-    
-width: 186px;
-height: 169px;
-background: #D9D9D9;
-border-radius: 20px;
+.williamsburg-square {
+  width: 186px;
+  height: 169px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
-.williamsburg-text{
-    padding-top: 40px;
-    padding-left: 20px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+.williamsburg-text {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
-.williamsburg-stock{
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+.williamsburg-stock {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
-.williamsburg-btn{
-    margin-top: 20px;
-    width: 140px;
-    border: none;
-    color: white;
-height: 45px;
-background: #C115EC;
-border-radius: 30px;
+.williamsburg-btn {
+  margin-top: 20px;
+  width: 140px;
+  border: none;
+  color: white;
+  height: 45px;
+  background: #c115ec;
+  border-radius: 30px;
 }
-.brownstone{
-    position: relative;
-    padding-left: 250px;
-    display: flex;
-    padding-top: 20px;
+.brownstone {
+  position: relative;
+  padding-left: 250px;
+  display: flex;
+  padding-top: 20px;
 }
-.brownstone-square{
-    width: 186px;
-height: 169px;
-background: #D9D9D9;
-border-radius: 20px;
+.brownstone-square {
+  width: 186px;
+  height: 169px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
-.brownstone-text{
-    padding-top: 40px;
-    padding-left: 20px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+.brownstone-text {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
-.brownstone-stock{
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+.brownstone-stock {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
-.brownstone-btn{
-    margin-top: 20px;
-    width: 140px;
-    border: none;
-    color: white;
-height: 45px;
-background: #C115EC;
-border-radius: 30px;
+.brownstone-btn {
+  margin-top: 20px;
+  width: 140px;
+  border: none;
+  color: white;
+  height: 45px;
+  background: #c115ec;
+  border-radius: 30px;
 }
-.topcollections-div{
-    border-left: 1px solid #D9D9D9;
-    padding-left: 50px;
+.topcollections-div {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 50px;
 }
-.topcollection-text{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 27px;
+.topcollection-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
 }
-.last7days-text{
-    font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 22px;
-color: #C115EC;
+.last7days-text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c115ec;
 }
-li{
-    display: flex;
-    padding-top: 30px;
+li {
+  display: flex;
+  padding-top: 30px;
 }
-.greenpoint2-flex{
-    display: flex;
+.greenpoint2-flex {
+  display: flex;
 }
-.circle1{
-    width: 60px;
-height: 60px;
-    border-radius: 50%;
-background: #D9D9D9;
-
+.circle1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #d9d9d9;
 }
-.greenpoint2{
-    padding-left: 35px;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-
+.greenpoint2 {
+  padding-left: 35px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
-.greenpoint2-amt{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 40px;
+.greenpoint2-amt {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
 }
-.greenpoint2-percent{
-    padding-top: 11px;
-    padding-left: 50px;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 19px;
-color: #FFC107;
+.greenpoint2-percent {
+  padding-top: 11px;
+  padding-left: 50px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffc107;
 }

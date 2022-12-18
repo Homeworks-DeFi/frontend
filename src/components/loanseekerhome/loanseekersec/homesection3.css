@@ -3,7 +3,6 @@
 }
 .homesec3 {
   display: float;
-
 }
 .homegrid {
   float: left;
@@ -185,17 +184,17 @@
   font-size: 20px;
   line-height: 40px;
 }
-.homesec3-text> button{
+.homesec3-text > button {
   width: 142px;
-height: 51px;
-border: none;
+  height: 51px;
+  border: none;
 
-background: #C115EC;
-color: white;
-border-radius: 30px;
-cursor: pointer;
+  background: #c115ec;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
 }
-.homesec3-text> button:hover{
+.homesec3-text > button:hover {
   color: black;
 }
 .homesec3-text > h1 {
@@ -207,10 +206,10 @@ cursor: pointer;
   line-height: 40px;
 }
 .homesec4-list > li {
-font-family: "Open Sans";
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 .homesec4-list > li::marker {
   color: #db15ec;
